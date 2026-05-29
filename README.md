@@ -137,7 +137,7 @@ dependency on OpenTelemetry.
 | Observability | optional **OpenTelemetry** spans | every node of the loop is a span under a per-run trace; export to Jaeger/Tempo/Honeycomb |
 | Safety | authorization gate + benign canaries | authorized-testing model; proves the *vulnerability class* without producing harm |
 
-## Talking points (for interviews)
+## Talking points
 
 - **Channels are the agent-specific insight.** Indirect injection (poisoned retrieval) and memory poisoning are the OWASP ASI risks that distinguish *agent* security from chatbot jailbreaking. Modeling them as a `channel` on each technique keeps the orchestration uniform while covering surfaces single-turn tools miss.
 - **Canaries over harmful outputs.** You prove an injection worked by leaking a planted secret — safer, and the detector is deterministic.
