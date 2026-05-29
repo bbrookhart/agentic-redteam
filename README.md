@@ -1,4 +1,4 @@
-# agentic-redteam
+# Agentic-Redteam
 
 An **authorized, canary-based agentic red-teamer** for LLM applications and agents, built on **LangGraph**. It autonomously probes a target across four attack channels for the OWASP **LLM Top 10 (2025)** and **Agentic / ASI Top 10 (2026)** vulnerability classes, *adapts its payloads when a defense holds*, and emits a human report **and** a machine-readable JSON summary that doubles as a **CI regression gate**.
 
